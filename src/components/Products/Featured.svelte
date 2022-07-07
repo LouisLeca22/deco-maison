@@ -1,7 +1,7 @@
 <script>
     import Product from "./Product.svelte";
     import Spinner from "../Spinner.svelte"
-    import products, {featuredStore} from "../../stores/defaultProducts";
+    import products, {featuredStore} from "../../stores/products";
     export let title = "";
     // $: featured = $products.filter(item => item.featured === true)
 

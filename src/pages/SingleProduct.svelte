@@ -1,7 +1,7 @@
 <script>
     export let id;
     import globalStore from "../stores/globalStore"
-    import products from "../stores/defaultProducts"
+    import products from "../stores/products"
     import Spinner from "../components/Spinner.svelte"
     import {link} from "svelte-routing"
     import {addToCart} from "../stores/cart"

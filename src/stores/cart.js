@@ -11,7 +11,7 @@ export const cartTotal = derived(cart, ($cart) => {
         acc += curr.amount * curr.price
         return acc;
     }, 0)
-    return total.toFixed(2)
+    return parseFloat(total.toFixed(2))
 })
 
 // local functions

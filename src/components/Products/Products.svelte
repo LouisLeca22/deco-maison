@@ -2,7 +2,7 @@
   import Product from "./Product.svelte";
   import Spinner from "../Spinner.svelte"
   // import {onMount, onDestroy} from "svelte"
-  import products from "../../stores/defaultProducts";
+  import products from "../../stores/products";
   // let localProducts = []
   // let unsubscribe;
   // onMount(() => {

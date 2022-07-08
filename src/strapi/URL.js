@@ -1,1 +1,0 @@
-export default "https://deco-maison.herokuapp.com"
